@@ -1,2 +1,2 @@
-# Basic-Profile-Bootstrap
-my basic profile but using bootstrap
+# Basic-Portfolio
+Basic Profile Layout
