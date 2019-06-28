@@ -6,61 +6,73 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <!-- CSS -->
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style2.css">
+
 </head>
 
 <body>
-    <header>
-        <div id="topcontent">
-            <h1>Trenton Cornwall</h1>
 
-                <ul>
-                    <li><a href="contact.html">Contact</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a class="active" href="index.html">About</a></li>
-                </ul>
+        <!-- NAV BAR-->
+        <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light shadow-lg p-3 mb-5 bg-white rounded">
+            <a class="navbar-brand" id="name">trenton cornwall</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="#">about <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="portfolio.html">projects</a>
+                    <a class="nav-item nav-link" href="contact.html">contact</a>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container">
+            <div class="row shadow-sm p-3 mb-5 bg-white rounded">   
+            <div class="col overflow-auto">
+            <section id="aboutme">
+                <h2>About Me</h2>
+                <hr>
+                <img src="assets/images/me.jpg" class="img-fluid rounded float-left">
+                <div id="abouttext">
+                    <p>
+                        Hello, I'm from Iowa. Which is very different from where I am now, Denver. I grew up a twin brother and
+                        many
+                        horses.
+                        Family and I would often take weekend vacations to a ranch were we road around on hourses, played in the
+                        woods.
+                        I eventually started bull riding, which lasted about 2 years.
+                    </p>
+                    <br>
+                    <p>
+                        After graduating high-school in my small town, I went to a few smaller colleges before landing at the
+                        Univeristy of Iowa.
+                        Where I majored in Informatics. Upon graduating, I really wasn't interested in doing much of what I
+                        learned.
+                        But once class,
+                        did stand out to me. Which was a Computer Human Interactions. How people interacted with computers. We
+                        built
+                        a webpage,
+                        using BootStrap, MySQL, PHP. This was my absolute favorite class. I knew I wanted to do that for a
+                        living.
+                    </p>
+                    <br>
+                    <p>
+                        So I started teaching myself as much as I could about web-development. I wanted to accerate the
+                        learning, so
+                        I invested in myself
+                        once again and started my journery and a Full Stack Web Development Boot Camp at the University of
+                        Denver.
+                        Where I'm excited to learn MongoDB and Node.JS. Which is what OpenTable, the company I work for uses.
+                    </p>
+                </div>
+            </section>
+        </div>    
         </div>
-    </header>
-
-    <section id="aboutme">
-        <h2>About Me</h2>
-        <hr>
-        <img src="assets/images/me.jpg">
-        <div id="abouttext">
-            <p>
-                Hello, I'm from Iowa. Which is very different from where I am now, Denver. I grew up a twin brother and
-                many
-                horses.
-                Family and I would often take weekend vacations to a ranch were we road around on hourses, played in the
-                woods.
-                I eventually started bull riding, which lasted about 2 years.
-            </p>
-            <br>
-            <p>
-                After graduating high-school in my small town, I went to a few smaller colleges before landing at the
-                Univeristy of Iowa.
-                Where I majored in Informatics. Upon graduating, I really wasn't interested in doing much of what I
-                learned.
-                But once class,
-                did stand out to me. Which was a Computer Human Interactions. How people interacted with computers. We
-                built
-                a webpage,
-                using BootStrap, MySQL, PHP. This was my absolute favorite class. I knew I wanted to do that for a
-                living.
-            </p>
-            <br>
-            <p>
-                So I started teaching myself as much as I could about web-development. I wanted to accerate the
-                learning, so
-                I invested in myself
-                once again and started my journery and a Full Stack Web Development Boot Camp at the University of
-                Denver.
-                Where I'm excited to learn MongoDB and Node.JS. Which is what OpenTable, the company I work for uses.
-            </p>
         </div>
-    </section>
 
-    <footer>
+    <footer class="fixed-bottom">
         Copyright ©
     </footer>
 

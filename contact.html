@@ -6,38 +6,55 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <!-- CSS -->
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style2.css">
 </head>
 
 <body>
-    <header>
-        <div id="topcontent">
-            <h1>Trenton Cornwall</h1>
+        <!-- NAV BAR-->
+        <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light shadow-lg p-3 mb-5 bg-white rounded">
+                <a class="navbar-brand" id="name">trenton cornwall</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link" href="index.html">about </a>
+                        <a class="nav-item nav-link" href="portfolio.html">projects</a>
+                        <a class="nav-item nav-link active" href="contact.html">contact <span class="sr-only">(current)</span></a>
+                    </div>
+                </div>
+            </nav>
+    
+<div class="container">
+        <div class="shadow-sm p-3 mb-5 bg-white rounded">
+                <div class="row">
+                <div class="col overflow-auto">
+        <section id="contact">
+                        <h2>Contact</h2><hr>
+  
+                        <form>
+                            <div class="form-group">
+                                <label for="formGroupExampleInput">name:</label>
+                                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="">
+                            </div>
+                            <div class="form-group">
+                                <label for="formGroupExampleInput2">email:</label>
+                                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="">
+                            </div>
+                            <div class="form-group">
+                                <label for="formGroupExampleInput3">message</label>
+                                <textarea type="text" class="form-control" id="formGroupExampleInput3" placeholder=""></textarea>
+                            </div>
+                            <button class="btn btn-outline-success" type="submit" id="send">send</button>
+                        </form>
+        </section>
+    </div>
+</div>
+</div>
+</div>
 
-            <ul>
-                <li><a class="active" href="contact.html">Contact</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="index.html">About</a></li>
-            </ul>
-        </div>
-    </header>
-
-    <section id="contact">
-        <h2>Contact</h2>
-        <hr>
-
-        <form action="mailto:trenton434@gmail.com" method="post" enctype="text/plain">
-            <label for="name">Name:</label>
-            <input type="text" name="name" placeholder="John Smith">
-            <label for="mail">Email:</label>
-            <input type="text" name="mail" placeholder="example@gmail.com">
-            <label for="comment">Message:</label>
-            <input type="text" name="comment" style="height:200px"></input>
-            <input type="submit" value="Submit">
-        </form>
-    </section>
-
-    <footer>
+    <footer class="fixed-bottom">
         Copyright ©
     </footer>
 

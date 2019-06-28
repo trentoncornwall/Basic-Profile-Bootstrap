@@ -1,0 +1,44 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    color: #777777;
+    background-image: url(../images/papyrus.png);
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#name {
+    font-variant: small-caps;
+    font-style: oblique;
+    font-size: 24px;
+    letter-spacing: 4px;
+}
+
+section {
+    padding: 5%;
+    background-color: white;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    margin-right: 15px;
+}
+
+footer {
+    background-color: #666666;
+    text-align: center;
+    padding: 8px;
+    border-top: 5px solid #4aaaa5;
+}
+
+#send {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+img {
+    margin-top: 10px;
+}

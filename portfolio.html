@@ -6,35 +6,55 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <!-- CSS -->
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style2.css">
 </head>
 
 <body>
-    <header>
-        <div id="topcontent">
-            <h1>Trenton Cornwall</h1>
+    <!--NAV BAR-->
+        <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light shadow-lg p-3 mb-5 bg-white rounded">
+                <a class="navbar-brand" id="name">trenton cornwall</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link" href="index.html">about </a>
+                        <a class="nav-item nav-link active" href="portfolio.html">projects <span class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link" href="contact.html">contact</a>
+                    </div>
+                </div>
+            </nav>
+    <div class="container">
+        <div class="row shadow-sm p-3 mb-5 bg-white rounded">
+            <div class="col">
+                <section>
+                    <div class="row">
+                        <div class="col">
+                            <h2>Portfolio</h2>
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="row justify-content-md-center">
 
-            <ul>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a class="active" href="portfolio.html">Portfolio</a></li>
-                <li><a href="index.html">About</a></li>
-            </ul>
+                            <div class="col-lg-4 col-md-6">
+                                <a href="#"><img  class="rounded mx-auto d-block" src="assets/images/project1.jpeg"></a>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6">
+                                <a href="#"><img class="rounded mx-auto d-block" src="assets/images/project2.jpeg"></a>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6">
+                                <a href="#"><img  class="rounded mx-auto d-block" src="assets/images/project3.jpeg"></a>
+                            </div>
+               
+                   </div>
+                </section>
+            </div>
         </div>
-    </header>
-
-    <section>
-        <h2>Portfolio</h2>
-        <hr>
-        <div id="projects">
-            <a href="#"><img src="assets/images/project1.jpeg"></a>
-            <a href="#"><img src="assets/images/project2.jpeg"></a>
-            <a href="#"><img src="assets/images/project3.jpeg"></a>
-        </div>
-
-
-    </section>
-
-    <footer>
+    </div>
+    <footer class="fixed-bottom">
         Copyright ©
     </footer>
 
