@@ -76,3 +76,8 @@ h2 {
     padding-left: 15px;
     padding-right: 15px;
 }
+
+.btn-outline-secondary {
+    color: #4aaaa5;
+    border-color: #4aaaa5;
+}
