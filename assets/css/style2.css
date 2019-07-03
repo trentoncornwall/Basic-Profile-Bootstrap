@@ -81,3 +81,8 @@ h2 {
     color: #4aaaa5;
     border-color: #4aaaa5;
 }
+
+#hangman {
+    width: 200px;
+    height: 200px;
+}
